@@ -1,0 +1,21 @@
+{
+  "title" : "Matcha",
+  "menu" : [
+    {
+      "name" : "home",
+      "path" : "/home"
+    },
+    {
+      "name" : "match",
+      "path" : "/match"
+    },
+    {
+      "name" : "profile",
+      "path" : "/profile"
+    },
+    {
+      "name" : "search",
+      "path" : "/search"
+    }
+  ]
+}
