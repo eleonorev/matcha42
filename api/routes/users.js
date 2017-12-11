@@ -13,6 +13,7 @@ var UserSchema = mongoose.Schema({
     },
     username: String,
     password: String,
+    image: Text,
     firstName: String,
     lastName: String,
     birthday: Date,
