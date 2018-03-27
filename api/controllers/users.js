@@ -30,6 +30,15 @@ exports.read_a_user = function(req, res) {
 };
 
 
+exports.read_a_userName = function(req, res) {
+  User.findOne({ username : req.params.username}, function(err, user) {
+    if (err)
+      res.send(err);
+    res.json(user);
+  });
+};
+
+
 exports.update_a_user = function(req, res) {
   User.findOneAndUpdate({_id: req.params.userId}, req.body, {new: true}, function(err, user) {
     if (err)
