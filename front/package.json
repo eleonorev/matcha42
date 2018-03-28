@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "run": "webpack-dev-server",
+    "build": "webpack"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -12,6 +14,14 @@
     "express-validator": "^5.0.3",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "twig": "~0.10.3"
+    "twig": "~0.10.3",
+    "vue-concise-slider": "^2.4.8",
+    "gulp": "^3.9.1",
+    "froala-editor": "^2.7.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.3.0",
+    "webpack-dev-middleware": "^3.1.0",
+    "webpack-dev-server": "^2.7.6"
   }
 }
