@@ -1,0 +1,65 @@
+.BlockProfil {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  height: auto;
+  top: 0;
+  right: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.7);
+}
+
+.BlockProfil-image {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px #000;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.BlockProfil-content {
+  color: white;
+  text-align: right;
+  margin-top: 20px;
+  display: block;
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+  font-size: 0.9rem;
+  .text {
+    display: block;
+  }
+}
+
+.Status {
+  font-size: 0.8rem;
+  &::before {
+    display: block;
+    position: relative;
+    content: " ";
+    margin-left: 10px;
+    width: 10px;
+    float: right;
+    height: 10px;
+    margin-top: 3px;
+    border-radius: 50%;
+    background-color: rgb(255,255,10);
+  }
+}
+
+// TEXT
+.text {
+  color: $c-white;
+  font-family: $f-text;
+}
+
+.text-bold  {
+  font-weight: 900;
+}

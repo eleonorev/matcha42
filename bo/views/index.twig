@@ -1,0 +1,11 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+<form class="" action="/send_post" method="post">
+    <input type="text" name="title" placeholder="Titre" value="">
+    <input type="text" name="image" placeholder="Image" value="">
+    <textarea name="content" rows="8" cols="80"></textarea>
+    <input type="text" name="tags" placeholder="Tags" value="">
+    <input type="submit" name="" value="Poster">
+</form>
+{% endblock %}
